@@ -5,7 +5,10 @@ export default function ElevatedCards() {
   return (
     <View>
       <Text style={styles.headingText}>Elevated Cards</Text>
-      <ScrollView horizontal={true} style={styles.container}>
+      <ScrollView
+        showsHorizontalScrollIndicator={false}
+        horizontal={true}
+        style={styles.container}>
         <View style={[styles.card, styles.cardElevated]}>
           <Text>Tap</Text>
         </View>
