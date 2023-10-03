@@ -16,7 +16,8 @@ export default function FancyCard() {
           <Text style={styles.cardTitle}>Hawa Mahal</Text>
           <Text style={styles.cardLable}>Pink City, Addis Ababa</Text>
           <Text style={styles.cardDescription}>
-            Hawa Mahal is a a place at Addis Ababa
+            Hawa Mahal is a a place at Addis Ababa Hawa Mahal is a a place at
+            Addis Ababa
           </Text>
           <Text style={styles.cardFooter}>12 min away</Text>
         </View>
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
   },
   card: {
-    width: 400,
+    width: 350,
     height: 360,
     borderRadius: 6,
     marginVertical: 12,
@@ -46,15 +47,26 @@ const styles = StyleSheet.create({
     // width: 100,
     height: 180,
     marginBottom: 8,
+    borderTopLeftRadius: 6,
+    borderTopRightRadius: 6,
   },
-  cardBody: {},
+  cardBody: {
+    flex: 1,
+    flexGrow: 1,
+    paddingHorizontal: 12,
+  },
   cardTitle: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 'bold',
-    paddingHorizontal: 8,
-    color: '#000',
+    marginBottom: 4,
   },
-  cardLable: {},
-  cardDescription: {},
+  cardLable: {
+    fontSize: 14,
+    marginBottom: 6,
+  },
+  cardDescription: {
+    fontSize: 12,
+    marginBottom: 12,
+  },
   cardFooter: {},
 });
