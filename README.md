@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started!
 
-`Laser-focused to be React Native Developer`
+#Laser-focused to be React & React Native Developer
 
 <img width="1920" alt="Screenshot 2023-10-03 at 10 58 57 at night" src="https://github.com/SadeEtensh/ReactNativeProject2/assets/80855879/7cbbdf84-0553-4db8-b710-c03852e085ed">
 
