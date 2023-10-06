@@ -42,7 +42,7 @@ export default function ActionCard() {
                 'https://dev.to/brayanarrieta/new-javascript-features-ecmascript-2021-with-examples-3hfm',
               )
             }>
-            <Text>Read More ...</Text>
+            <Text style={styles.socialLinks}>Read More</Text>
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() =>
@@ -64,14 +64,50 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingHorizontal: 8,
   },
-  card: {},
-  elevatedCard: {},
-  headiingContainer: {},
-  headiingText: {},
-  cardImage: {
-    height: 100,
+  card: {
+    width: 350,
+    height: 360,
+    borderRadius: 6,
+    marginVertical: 12,
+    marginHorizontal: 16,
   },
-  bodyContainer: {},
-  footerContainer: {},
-  socialLinks: {},
+  elevatedCard: {
+    backgroundColor: '#E07C24',
+    elevation: 3,
+    shadowOffset: {
+      width: 1,
+      height: 1,
+    },
+    shadowColor: '#333',
+    shadowOpacity: 1,
+  },
+  headiingContainer: {
+    height: 40,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  headiingText: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  cardImage: {
+    height: 190,
+  },
+  bodyContainer: {
+    margin: 10,
+  },
+  footerContainer: {
+    padding: 8,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  socialLinks: {
+    fontSize: 16,
+    backgroundColor: '#FFF',
+    paddingHorizontal: 20,
+    paddingVertical: 6,
+    borderRadius: 6,
+  },
 });
