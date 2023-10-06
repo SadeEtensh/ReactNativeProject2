@@ -11,7 +11,7 @@ export default function ContactList() {
     },
     {
       uid: 2,
-      name: 'Anurag Tiwari',
+      name: 'Sade Garmamo',
       status: 'I ❤️ To Code and Teach!',
       imageUrl: 'https://avatars.githubusercontent.com/u/94738352?v=4',
     },
