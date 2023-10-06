@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 3,
-    backgroundColor: '#8D3DAF',
+    backgroundColor: '#330099',
     padding: 8,
     borderRadius: 10,
   },
@@ -83,5 +83,6 @@ const styles = StyleSheet.create({
   },
   userStatus: {
     fontSize: 12,
+    color: 'orange',
   },
 });
